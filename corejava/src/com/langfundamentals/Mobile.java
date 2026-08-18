@@ -36,9 +36,10 @@ public class Mobile {
 	
 		
 		System.out.println("************obj1 info*******************");
-		displaydetails();
+		
 		
 		Mobile m1 = new Mobile();//object1 creation
+		displaydetails();
 		m1.model="v60";
 		m1.price=40000;
 		m1.ram="8GB";
@@ -47,10 +48,13 @@ public class Mobile {
 		
 		
 		
-		System.out.println("************obj3 info*******************");
-		displaydetails();
+		System.out.println("************obj2 info*******************");
+		
+		
 		Mobile m2 = new Mobile();//object2 creation
 		brand="samsung";
+		displaydetails();
+		
 		m2.model="s23 ultra";
 		m2.price=60000;
 		m2.ram="9GB";
@@ -58,9 +62,10 @@ public class Mobile {
 		
 		
 		System.out.println("************obj3info*******************");
-		displaydetails();
+		
 		Mobile m3 = new Mobile();//object3 creation
 		brand="one plus";
+		displaydetails();
 		m3.model="t20";
 		m3.price=90000;
 		m3.ram="6GB";
